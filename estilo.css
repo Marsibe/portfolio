@@ -115,6 +115,10 @@ nav ul li a:hover {
     transition: all .5s ease-in-out;
 }
 
+#subtitle{
+    transition: all .5s ease-in-out;
+}
+
 @media (max-width:430px) {
     nav {
         font-size: .9em;
