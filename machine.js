@@ -9,6 +9,5 @@ function typeWriter(elemento){
 }
 
 const titulo = document.querySelector("#subtitle");
-for(var i = 0; i < 5; i++){
-    typeWriter(titulo);
-}
+typeWriter(titulo);
+
