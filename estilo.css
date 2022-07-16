@@ -255,6 +255,31 @@ li.skill-bar {
     border-radius: 5px;
 }
 
+#local{
+    background: #ec0000;
+    color: rgb(235, 255, 54);
+}
+
+#local h1{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.map{
+    width: 90%;
+    margin: auto;
+}
+
+.map p{
+    text-align: center;
+}
+
+.map p iframe{
+    width: 300px;
+    height: 225px;
+}
+
 @media (max-width:940px) {
     .container {
         padding-top: 60px;
