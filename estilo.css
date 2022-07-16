@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Prompt', sans-serif;
 }
@@ -115,8 +119,62 @@ nav ul li a:hover {
     transition: all .5s ease-in-out;
 }
 
-#subtitle{
+#subtitle {
     transition: all .5s ease-in-out;
+}
+
+#about {
+    background: #0a0a0a;
+    color: #fff;
+}
+
+#about h1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+#about p{
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+    padding-bottom: 40px;
+}
+
+@media (max-width:940px){
+    .container{
+        padding-top: 60px;
+    }
+    .textcontent h1{
+        font-size: 2em;
+    }
+    .imagem img{
+        width: 300px;
+    }
+    header{
+        height: 90vh;
+    }
+}
+
+@media (max-width:750px){
+    .textcontent h1{
+        font-size: 2em;
+    }
+}
+
+@media (max-width:660px){
+    .textcontent h1, .textcontent h2{
+        font-size: 1.3em;
+    }
+    .container ul li a ion-icon {
+        font-size: 15px;
+    }
+    .imagem img{
+        width: 200px;
+    }
+    header{
+        height: 100vh;
+    }
 }
 
 @media (max-width:430px) {
@@ -137,7 +195,7 @@ nav ul li a:hover {
 
     .imagem img {
         margin-top: 30px;
-        width: 300px;
+        width: 180px;
     }
 
     .container ul li a ion-icon {
@@ -189,5 +247,11 @@ nav ul li a:hover {
 
     .open {
         display: block;
+    }
+}
+
+@media (max-width:300px){
+    .textcontent h1{
+        font-size: 1.3em;
     }
 }
