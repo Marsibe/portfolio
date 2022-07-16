@@ -141,6 +141,34 @@ nav ul li a:hover {
     padding-bottom: 40px;
 }
 
+#services{
+    background: #ec0000;
+    color: rgb(235, 255, 54);
+}
+
+#services h1{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.cards{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+
+.card{
+    background: #fff;
+    color: #000;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 1px rgba(235, 255, 54,0.6);
+}
+
 @media (max-width:940px){
     .container{
         padding-top: 60px;
