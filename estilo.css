@@ -239,7 +239,6 @@ li.skill-bar {
 
 #contact p a{
     text-decoration: none;
-    color: #fff;
     font-size: .8em;
     font-weight: bold;
 }
@@ -248,11 +247,24 @@ li.skill-bar {
     font-size: 1em;
 }
 
+.mail{
+    color: rgb(235, 255, 54);
+}
+
+.mail:hover{
+    color: #ec0000;
+}
+
 .cv{
     background: #ec0000;
     font-weight: bold;
+    color: rgb(235, 255, 54);
     padding: 5px;
     border-radius: 5px;
+}
+
+.cv:hover{
+    color: #0a0a0a;
 }
 
 #local{
@@ -278,6 +290,26 @@ li.skill-bar {
 .map p iframe{
     width: 300px;
     height: 225px;
+}
+
+footer{
+    background: #0a0a0a;
+    color: #fff;
+}
+
+footer p{
+    text-align: center;
+    padding: 30px;
+    font-weight: 600;
+}
+
+footer p a{
+    text-decoration: none;
+    color: rgb(235, 255, 54);
+}
+
+footer p a:hover{
+    color: #ec0000;
 }
 
 @media (max-width:940px) {
