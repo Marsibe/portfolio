@@ -357,6 +357,11 @@ footer p a:hover{
 }
 
 @media (max-width:430px) {
+    .bean-skills{
+        width: 300px;
+        margin-left: 17%;
+    }
+
     nav {
         font-size: .9em;
         font-weight: bold;
@@ -432,5 +437,10 @@ footer p a:hover{
 @media (max-width:300px) {
     .textcontent h1 {
         font-size: 1.3em;
+    }
+
+    .bean-skills{
+        width: 260px;
+        margin-left: 7%;
     }
 }
